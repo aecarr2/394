@@ -1,0 +1,15 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# http://www.codeandweb.com/texturepacker/unity
+#
+# Sprite sheet: CloudSheet.png (1024 x 512)
+# $TexturePacker:SmartUpdate:445f70581f47e6a3b76fbc5e7ca2928b:943408117f9bbeefd1cf5436a88b76ec:6ffc8bd644d2e485bc4b0764fcaa6f8c$
+#
+
+bgCloud;2;308;999;202;0.5;0.5
+bgCloud1;2;132;508;174;0.5;0.41954022988505746
+bgCloud2;2;5;199;125;0.49748743718592964;0.5
+bgCloud4;414;11;209;119;0.49760765550239233;0.46638655462184875
+cloud3;203;10;209;120;0.5;0.5

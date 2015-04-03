@@ -1,0 +1,15 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# http://www.codeandweb.com/texturepacker/unity
+#
+# Sprite sheet: NyanSheet.png (1024 x 512)
+# $TexturePacker:SmartUpdate:3ebabfd6dfa7e9689ea1e7e1a6f43825:59db827959534f188c09c3619f17c7f8:c7c5bec3c57e150708258255b095308a$
+#
+
+Nyan1;2;23;31;20;0.4838709677419355;0.5
+Nyan2;2;67;33;20;0.5;0.5
+Nyan3;2;45;33;20;0.5;0.5
+bgCloud1;2;89;508;174;0.5;0.41954022988505746
+bgSky;2;265;540;245;0.5722222222222222;0.31836734693877555
