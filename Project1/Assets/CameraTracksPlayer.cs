@@ -1,7 +1,11 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
 public class CameraTracksPlayer : MonoBehaviour {
+	
+	public GUIText scoreDisplay;
+	static int score = 0;
+	static float cooldown = 0;
 
 	Transform player;
 	float offsetX;
@@ -22,11 +26,21 @@ public class CameraTracksPlayer : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		cooldown -= Time.deltaTime;
 		if (player != null) {
 			Vector3 pos = transform.position;
 			pos.x = player.position.x + offsetX;
 			transform.position = pos;
 		}
-	
+	}
+
+	// checks whether the cooldown has finished before updating
+	// the cooldown may be needed since you start stacking the clouds on each other at some point in the level
+	public void IncrementScore () {
+		if (cooldown <= 0) {
+			score++;
+			cooldown = 0.5f;
+		}
+		scoreDisplay.text = "Score: " + score;
 	}
 }
